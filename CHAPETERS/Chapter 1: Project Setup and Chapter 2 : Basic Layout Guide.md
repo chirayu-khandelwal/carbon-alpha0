@@ -26,11 +26,16 @@ The course highly recommends **Bun** as both the JavaScript runtime and package 
 
 ### 1.2. Create the Next.js Project
 
-You will create a Next.js project named "NewTube" using a specific version for tutorial longevity.
+You will create a Next.js project named "Carbon" using a specific version for tutorial longevity.
 
 * Run the command:
+* For 15.1.2
     ```bash
-    bunx create-next-app@15.1.2 newtube
+    bunx create-next-app@15.1.2 carbon
+    ```
+* For latest
+    ```bash
+    bunx create-next-app@latest carbon
     ```
     This command uses `bunx` (Bun's equivalent of `npx`) and specifies Next.js version `15.1.2` to ensure stability against future breaking changes.
 
@@ -43,7 +48,7 @@ You will create a Next.js project named "NewTube" using a specific version for t
     * `Would you like to customize the default import alias (@/*)?` **No** (Defaults to the `@` sign, which is preferred)
     * `Would you like to use TurboPack for `bun dev`?` **No** (To ensure consistency with the tutorial environment)
 
-* Once the project is created, navigate into its directory: `cd newtube`.
+* Once the project is created, navigate into its directory: `cd carbon`.
 * Open the project in your IDE. **VS Code** is highly recommended for consistent extensions.
 
 ### 1.3. Project Structure Overview
@@ -63,6 +68,10 @@ Shadcn UI is a collection of reusable components that you can copy and paste int
     ```bash
     bunx shadcn-ui@2.1.8 init
     ```
+* For latest  
+    ```bash
+    bunx shadcn-ui@latest init
+    ```
     The specific version `2.1.8` is used for tutorial consistency. Bun avoids issues with React 19's peer dependencies during this process, unlike npm which might throw errors.
 
 * **Configuration Choices** during `shadcn-ui init`:
@@ -75,6 +84,10 @@ Shadcn UI is a collection of reusable components that you can copy and paste int
 * **Install All Components**:
     ```bash
     bunx shadcn@2.1.8 add --all
+    ```
+* For latest
+    ```bash
+    bunx shadcn@latest add --all
     ```
     This command installs all Shadcn UI components at once, simplifying future usage. Components will be imported using aliases like `components/UI/button`, which default to the `src` folder, streamlining imports. The source code of these components is directly available, allowing for easy modification.
 
