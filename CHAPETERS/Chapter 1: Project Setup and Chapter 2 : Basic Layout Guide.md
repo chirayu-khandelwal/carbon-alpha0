@@ -74,7 +74,7 @@ Shadcn UI is a collection of reusable components that you can copy and paste int
 
 * **Install All Components**:
     ```bash
-    bunx shadcn-ui@2.1.8 add --all
+    bunx shadcn@2.1.8 add --all
     ```
     This command installs all Shadcn UI components at once, simplifying future usage. Components will be imported using aliases like `components/UI/button`, which default to the `src` folder, streamlining imports. The source code of these components is directly available, allowing for easy modification.
 
