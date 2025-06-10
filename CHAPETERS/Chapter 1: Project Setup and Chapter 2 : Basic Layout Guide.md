@@ -26,16 +26,16 @@ The course highly recommends **Bun** as both the JavaScript runtime and package 
 
 ### 1.2. Create the Next.js Project
 
-You will create a Next.js project named "Carbon" using a specific version for tutorial longevity.
+You will create a Next.js project named "Vubo" using a specific version for tutorial longevity.
 
 * Run the command:
 * For 15.1.2
     ```bash
-    bunx create-next-app@15.1.2 carbon
+    bunx create-next-app@15.1.2 vubo
     ```
 * For latest
     ```bash
-    bunx create-next-app@latest carbon
+    bunx create-next-app@latest vubo
     ```
     This command uses `bunx` (Bun's equivalent of `npx`) and specifies Next.js version `15.1.2` to ensure stability against future breaking changes.
 
@@ -48,7 +48,7 @@ You will create a Next.js project named "Carbon" using a specific version for tu
     * `Would you like to customize the default import alias (@/*)?` **No** (Defaults to the `@` sign, which is preferred)
     * `Would you like to use TurboPack for `bun dev`?` **No** (To ensure consistency with the tutorial environment)
 
-* Once the project is created, navigate into its directory: `cd carbon`.
+* Once the project is created, navigate into its directory: `cd vubo`.
 * Open the project in your IDE. **VS Code** is highly recommended for consistent extensions.
 
 ### 1.3. Project Structure Overview
